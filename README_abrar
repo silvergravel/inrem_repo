@@ -1,0 +1,30 @@
+Files that have been created / modified by me:
+
+MODIFIED:
+1// tpl/bootstrap3/tpl_navbar.php
+  - included the namespace global var file
+  - included the change wiki language file
+  - included the show languages file (multilingual plugin)
+  - wrote code to identify current uri and from that, fetch the current language selection
+    - changed the homelink based on the current language logic.
+  - added the bootstrap button for contribute content and the two dropdowns for that.
+
+CREATED:
+1// tpl/bootstrap3/change_wiki_language.php
+2// phpincludes/en_home.php
+3// phpincludes/hi_home.php
+4// phpincludes/global_home.php
+5// phpincludes/whatsapp_share.php
+
+CSS STYLING FOR PHP_INCLUDES PAGES
+1// phpincludes/css/main.css
+
+BUREAUCRACY FORMS & TEMPLATES CREATED:
+1// data/pages/for_admin/contribute_content_files/how_to_form
+2// data/pages/for_admin/contribute_content_files/how_to_template
+3// data/pages/for_admin/contribute_content_files/stories_form
+4// data/pages/for_admin/contribute_content_files/stories_template
+
+PAGEMOD TEST (UNUSED)
+1// data/pages/for_admin/contribute_content_files/test/pagemod_test_form
+2// data/pages/for_admin/contribute_content_files/test/pagemod_test_page

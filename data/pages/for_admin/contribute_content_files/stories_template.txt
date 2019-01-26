@@ -1,0 +1,13 @@
+====== @@What is this story about?@@ ======
+**District: @@What's the name of your District?@@.**
+
+*Summary*\\
+@@Provide a 50 word summary@@
+
+===@@Is there a quote that you would like to add in?@@===
+
+*Key Takeaways*\\
+@@What are the key takeaway's from this story?@@
+
+
+<phpinc=whatsapp_share.php>

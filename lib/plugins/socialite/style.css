@@ -1,0 +1,286 @@
+.socialite {
+    padding-left: 0;
+    list-style: none;
+}
+
+.socialite li
+{
+    display: inline-block;
+    margin: .25em;
+    line-height: 24px;
+}
+
+.socialite li a {
+    font-size: .875em;
+    border-radius: 2px;
+    border: 1px solid;
+    box-shadow: 0 0 .5em #999;
+    transition: background-color ease-in-out .5s, color ease-in-out .5s, border-color ease-in-out .5s, box-shadow ease-in-out .5s;
+}
+
+.socialite li a:hover {
+    box-shadow: 0 0 1em #666;
+}
+
+.socialite li a:link,
+.socialite li a:visited {
+    text-decoration: none;
+}
+
+.socialite li.name a,
+.socialite li.icon a {
+    background-size: 1.25em;
+    background-repeat: no-repeat;
+    background-position: .25em center;
+    padding: .25em .25em .25em 1.75em;
+    color: #000000;
+}
+.socialite li.color a
+{
+    padding: .25em .25em .25em .25em;
+    color: #ffffff;
+}
+
+
+/*
+ * Social network specific settings
+ */
+
+
+/* Twitter */
+
+.socialite li.name .twitter,
+.socialite li.icon .twitter,
+.socialite li.color .twitter {
+   border-color: #1da1f3;
+}
+
+.socialite li.name .twitter,
+.socialite li.icon .twitter {
+    background-image: url("images/twitter.svg");
+}
+
+.socialite li.color .twitter {
+    background-color: #1da1f3;
+}
+
+/* Facebook */
+
+.socialite li.name .facebook,
+.socialite li.icon .facebook,
+.socialite li.color .facebook {
+   border-color: #3b5998;
+}
+
+.socialite li.name .facebook,
+.socialite li.icon .facebook {
+    background-image: url("images/facebook.svg");
+}
+
+.socialite li.color .facebook {
+    background-color: #3b5998;
+}
+
+/* Google+ */
+
+.socialite li.name .googleplus,
+.socialite li.icon .googleplus,
+.socialite li.color .googleplus {
+    border-color: #dd4f43;
+}
+
+.socialite li.name .googleplus,
+.socialite li.icon .googleplus {
+    background-image: url("images/google_plus.svg");
+}
+
+.socialite li.color .googleplus {
+    background-color: #dd4f43;
+}
+
+/* LinkedIn */
+
+.socialite li.name .linkedin,
+.socialite li.icon .linkedin,
+.socialite li.color .linkedin {
+    border-color: #0077b5;
+}
+
+.socialite li.name .linkedin,
+.socialite li.icon .linkedin {
+    background-image: url("images/linkedin.svg");
+}
+
+.socialite li.color .linkedin {
+    background-color: #0077b5;
+}
+
+/* Pinterest */
+
+.socialite li.name .pinterest,
+.socialite li.icon .pinterest,
+.socialite li.color .pinterest {
+    border-color: #bd081b;
+}
+
+.socialite li.name .pinterest,
+.socialite li.icon .pinterest {
+    background-image: url("images/pinterest.svg");
+}
+
+.socialite li.color .pinterest {
+    background-color: #bd081b;
+}
+
+/* Tumblr */
+
+.socialite li.name .tumblr,
+.socialite li.icon .tumblr,
+.socialite li.color .tumblr {
+    border-color: #39475d;
+}
+
+.socialite li.name .tumblr,
+.socialite li.icon .tumblr {
+    background-image: url("images/tumblr.svg");
+}
+
+.socialite li.color .tumblr {
+    background-color: #39475d;
+}
+
+/* Reddit */
+
+.socialite li.name .reddit,
+.socialite li.icon .reddit,
+.socialite li.color .reddit {
+    border-color: #ff4500;
+}
+
+.socialite li.name .reddit,
+.socialite li.icon .reddit {
+    background-image: url("images/reddit.svg");
+}
+
+.socialite li.color .reddit {
+    background-color: #ff4500;
+}
+
+/* Taringa */
+
+.socialite li.name .taringa,
+.socialite li.icon .taringa,
+.socialite li.color .taringa {
+    border-color: #005dab;
+}
+
+.socialite li.name .taringa,
+.socialite li.icon .taringa {
+    background-image: url("images/taringa.svg");
+}
+
+.socialite li.color .taringa {
+    background-color: #005dab;
+}
+
+/* StumbleUpon */
+
+.socialite li.name .stumbleupon,
+.socialite li.icon .stumbleupon,
+.socialite li.color .stumbleupon {
+    border-color: #eb4924;
+}
+
+.socialite li.name .stumbleupon,
+.socialite li.icon .stumbleupon {
+    background-image: url("images/stumbleupon.svg");
+}
+
+.socialite li.color .stumbleupon {
+    background-color: #eb4924;
+}
+
+/* Telegram */
+
+.socialite li.name .telegram,
+.socialite li.icon .telegram,
+.socialite li.color .telegram {
+    border-color: #1d94d3;
+}
+
+.socialite li.name .telegram,
+.socialite li.icon .telegram {
+    background-image: url("images/telegram.svg");
+}
+
+.socialite li.color .telegram {
+    background-color: #1d94d3;
+}
+
+/* Hacker News */
+
+.socialite li.name .hackernews,
+.socialite li.icon .hackernews,
+.socialite li.color .hackernews {
+    border-color: #ff6600;
+}
+
+.socialite li.name .hackernews,
+.socialite li.icon .hackernews {
+    background-image: url("images/hackernews.svg");
+}
+
+.socialite li.color .hackernews {
+    background-color: #ff6600;
+}
+
+/* Xing */
+
+.socialite li.name .xing,
+.socialite li.icon .xing,
+.socialite li.color .xing {
+    border-color: #175e60;
+}
+
+.socialite li.name .xing,
+.socialite li.icon .xing {
+    background-image: url("images/xing.svg");
+}
+
+.socialite li.color .xing {
+    background-color: #175e60;
+}
+
+/* Vk */
+
+.socialite li.name .vk,
+.socialite li.icon .vk,
+.socialite li.color .vk {
+    border-color: #4c75a3;
+}
+
+.socialite li.name .vk,
+.socialite li.icon .vk {
+    background-image: url("images/vk.svg");
+}
+
+.socialite li.color .vk {
+    background-color: #4c75a3;
+}
+
+/* Email */
+
+.socialite li.name .email,
+.socialite li.icon .email,
+.socialite li.color .email {
+    border-color: #673147;
+}
+
+.socialite li.name .email,
+.socialite li.icon .email {
+    background-image: url("images/email.svg");
+}
+
+.socialite li.color .email {
+    background-color: #673147;
+}

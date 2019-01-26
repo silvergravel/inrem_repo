@@ -1,0 +1,12 @@
+<form>
+
+
+action pagemod for_admin:contribute_content_files:pagemod_test_page test
+
+
+
+
+textbox  "Addition"
+
+submit
+</form>

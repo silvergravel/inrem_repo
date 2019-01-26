@@ -1,0 +1,12 @@
+<form>
+action   template stories_template "@@What language will this article be in?@@:@@What's the name of your district?@@:stories_content:@@What is this story about?@@"
+
+fieldset "Contribute A Story From The Ground"
+select   "What language will this article be in?" "english|hindi"
+select   "What's the name of your district?" "Jhabua|Nalgonda|Chikballapur|Balasore"
+textbox  "What is this story about?"
+textarea "Provide a 50 word summary"
+textbox  "Is there a quote that you would like to add in?"
+textarea "What are the key takeaway's from this story?"
+submit
+</form>

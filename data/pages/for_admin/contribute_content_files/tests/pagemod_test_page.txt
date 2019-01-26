@@ -1,0 +1,5 @@
+This is a page where additions happen
+
+this is an addition
+<pagemod test output_before>@@Addition@@
+</pagemod>

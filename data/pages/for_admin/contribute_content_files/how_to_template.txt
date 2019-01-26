@@ -1,0 +1,8 @@
+{{@@Choose a cover image@@?1600x500}}
+====== @@What is this HOW TO about?@@ ======
+**District: @@What's the name of your District?@@.**
+
+@@Provide step by step instructions|FIXME please fill in your biography@@
+
+
+<phpinc=whatsapp_share.php>
