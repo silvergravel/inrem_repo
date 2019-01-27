@@ -4,9 +4,13 @@
 //fetching global definition of namespace names-----------------------------------------//
 
 $cwd = getcwd();
-include $cwd.'/namespace_names.php';
+include $cwd.'/var_config.php';
 
 //--------------------------------------------------------------------------------------//
+
+//check URI to see which language space we are in, accordingly put the
+//respective language selection button in active state
+
 $compatible_language_codes = array("en", "hi");
 $directoryURI = $_SERVER['REQUEST_URI'];
 $components = explode('=', $directoryURI);
@@ -28,10 +32,10 @@ if($current_language_code == "en"){
 
 <ul class="nav navbar-nav" id = "linklist">
         <li class="<?php if ($current_language==$english) {echo "active"; } else  {echo "noactive";}?>">
-          <a href="<?php if ($current_language==$english) {echo "#"; } else  {echo "/dokuwiki/doku.php?id=".$english.":start";}?>">English</a>
+          <a href="<?php if ($current_language==$english) {echo "#"; } else  {echo "/".$root_folder."/doku.php?id=".$english.":start";}?>">English</a>
         </li>
         <li class="<?php if ($current_language==$hindi) {echo "active"; } else  {echo "noactive";}?>">
-          <a href="<?php if ($current_language==$hindi) {echo "#"; } else  {echo "/dokuwiki/doku.php?id=".$hindi.":start";}?>">Hindi</a>
+          <a href="<?php if ($current_language==$hindi) {echo "#"; } else  {echo "/".$root_folder."/doku.php?id=".$hindi.":start";}?>">Hindi</a>
         </li>
 
 </ul>

@@ -2,12 +2,15 @@ Files that have been created / modified by me:
 
 MODIFIED:
 1// tpl/bootstrap3/tpl_navbar.php
-  - included the namespace global var file
+  - included the var_config global var file
   - included the change wiki language file
   - included the show languages file (multilingual plugin)
   - wrote code to identify current uri and from that, fetch the current language selection
     - changed the homelink based on the current language logic.
   - added the bootstrap button for contribute content and the two dropdowns for that.
+1// tpl/bootstrap3/tpl_page_tools.php
+  - included the var-config global var file
+  - put the whatsapp share button in the floating tool tablet on the right (<li> : line 29)
 
 CREATED:
 1// tpl/bootstrap3/change_wiki_language.php

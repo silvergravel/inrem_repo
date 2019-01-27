@@ -10,7 +10,7 @@
  //fetching global definition of namespace names-----------------------------------------//
 
  $cwd = getcwd();
- include $cwd.'/namespace_names.php';
+ include $cwd.'/var_config.php';
 
  //--------------------------------------------------------------------------------------//
 
@@ -46,7 +46,7 @@ $navbar_classes[] = (bootstrap3_conf('inverseNavbar')  ? 'navbar-inverse'   : 'n
 
 //hyperlink the homelink to a particular language homepage, depending on current language selection
 
-$home_link        = "/dokuwiki/doku.php?id=".$current_language.":start"; //change_wiki_language_addon
+$home_link        = "/".$root_folder."/doku.php?id=".$current_language.":start"; //change_wiki_language_addon
 
 //-------------------------------------------------------------------//
 
@@ -188,17 +188,19 @@ $home_link        = "/dokuwiki/doku.php?id=".$current_language.":start"; //chang
       </div>
 
     </div>
-    <div style="float:left;">
-      <?php  @include(dirname(__FILE__).'/show_languages.html')?>
-    </div>
+    <!-- <div style="float:left;"> -->
+      <?php
+      //@include(dirname(__FILE__).'/show_languages.html')
+      ?>
+    <!-- </div> -->
 
     <div style="float:left;"><?php  @include(dirname(__FILE__).'/change_wiki_language.php')?></div>
 
     <div class="dropdown" style="float:right;">
       <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">+ Contribute Content</button>
       <ul class="dropdown-menu">
-        <li><a href="/dokuwiki/doku.php?id=for_admin:contribute_content_files:how_to_form">how to...</a></li>
-        <li><a href="/dokuwiki/doku.php?id=for_admin:contribute_content_files:stories_form">stories from the ground</a></li>
+        <li><a href="<?php echo "/".$root_folder."/doku.php?id=for_admin:contribute_content_files:how_to_form" ?>">how to...</a></li>
+        <li><a href="<?php echo "/".$root_folder."/doku.php?id=for_admin:contribute_content_files:stories_form" ?>">stories from the ground</a></li>
       </ul>
     </div>
 

@@ -1,8 +1,0 @@
-{{@@Choose a cover image@@?1600x500}}
-====== this is another test ======
-**District: Jhabua.**
-
-check check check
-
-
-<phpinc=whatsapp_share.php>

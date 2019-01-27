@@ -1,5 +1,9 @@
 <?php
 // Program to display URL of current page.
+$cwd = getcwd();
+include $cwd.'/var_config.php';
+
+$img_src = "/".$root_folder."/phpincludes/media/whatsapp_share.png";
 
 if(isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on')
     $link = "https";
@@ -23,6 +27,9 @@ $whatsapp_share_href = $whatsapp_share_prefix.$link;
 
 
 // whatsapp share button
-echo "<a href=$whatsapp_share_href data-action='share/whatsapp/share'>Share via Whatsapp</a>";
+echo "<a href=$whatsapp_share_href data-action='share/whatsapp/share'><img height='20' src=$img_src></a>";
+
 
 ?>
+
+<!-- <img src="/inrem_repo/share.png"> -->

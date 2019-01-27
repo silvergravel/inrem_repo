@@ -1,8 +1,30 @@
-{{@@Choose a cover image@@?1600x500}}
-====== @@What is this HOW TO about?@@ ======
-**District: @@What's the name of your District?@@.**
+HOW TO..
+====== @@Title@@ ======
+=== @@Sub-Title@@ ===
+----
+Author: @NAME@  |  District: @@What's the name of your District?@@  |  Date: %d %h %y
+----
 
-@@Provide step by step instructions|FIXME please fill in your biography@@
+**Summary:**
+
+@@Please provide a short summary of this article@@
 
 
-<phpinc=whatsapp_share.php>
+{{@@Upload a video to make your HOW TO a lot more comprehensive!@@?1600x500}}
+
+
+**Pre-Requisites/ Material Required:**
+
+@@What are the pre-requisites or materials needed for this?@@
+
+
+**Setting Up:**
+
+@@Provide detailed instructions on how to set it up@@
+
+
+**Ways of Testing:**
+
+@@How would you test this solution?@@
+
+

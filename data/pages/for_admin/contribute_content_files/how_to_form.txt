@@ -1,14 +1,19 @@
 
 <form>
-action   template how_to_template "@@What language will this article be in?@@:@@What's the name of your District?@@:how_to_content:@@What is this HOW TO about?@@"
+action   template how_to_template "@@What language will this article be in?@@:@@What's the name of your District?@@:how_to_content:@@Title@@"
 
 
 fieldset "Contribute A HOW TO Article"
-
-file     "Choose a cover image" !
 select   "What language will this article be in?" "english|hindi"
 select   "What's the name of your District?" "Jhabua|Nalgonda|Chikballapur|Balasore"
-textbox  "What is this HOW TO about?"
-textarea "Provide step by step instructions"
+
+
+textbox  "Title"
+textbox  "Sub-Title"
+textarea "Please provide a short summary of this article"
+file     "Upload a video to make your HOW TO a lot more comprehensive!" 
+textarea "What are the pre-requisites or materials needed for this?"
+textarea "Provide detailed instructions on how to set it up"
+textarea "How would you test this solution?" !
 submit
 </form>

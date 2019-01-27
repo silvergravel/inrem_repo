@@ -7,6 +7,9 @@
  * @license  GPL 2 (http://www.gnu.org/licenses/gpl.html)
  */
 
+
+$cwd = getcwd();
+
 // must be run from within DokuWiki
 if (!defined('DOKU_INC')) die();
 
@@ -24,7 +27,9 @@ if (!defined('DOKU_INC')) die();
                                   array('class="action text-muted', '</i><span class="sr-only">', '</span></a>'),
                                   $tools_menu);
         echo $tools_menu;
+
       ?>
+      <li><?php @include($cwd.'/phpincludes/whatsapp_share.php') ?></li>
     </ul>
   </div>
 </nav>

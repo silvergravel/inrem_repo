@@ -3,7 +3,7 @@
 //fetching global definition of namespace names-----------------------------------------//
 
 $cwd = getcwd();
-include $cwd.'/namespace_names.php';
+include $cwd.'/var_config.php';
 
 //--------------------------------------------------------------------------------------//
 
@@ -43,7 +43,7 @@ foreach(glob( $home_lang_content_dir_path.'/*', GLOB_ONLYDIR) as $locations) {
         $val = str_replace('.txt', '', $val);
         $display_topic = str_replace('_', ' ', $val);
 
-        $link_to_url = "/dokuwiki/doku.php?id=".$home_lang.":".basename($locations).":".basename($formats).":".$val;
+        $link_to_url = "/".$root_folder."/doku.php?id=".$home_lang.":".basename($locations).":".basename($formats).":".$val;
 
         echo "<h3 class='topic'><a href=$link_to_url>$display_topic</a></h3>";
 
