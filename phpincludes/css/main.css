@@ -4,3 +4,12 @@
   text-transform: uppercase;
 
 }
+
+.whatsapp_share>img{
+-webkit-transition: height 0.5s; /* Safari */
+  transition: height 0.5s;
+}
+
+.whatsapp_share>img:hover{
+  height: 30px;
+}

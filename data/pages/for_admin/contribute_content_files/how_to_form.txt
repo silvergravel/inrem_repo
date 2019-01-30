@@ -2,6 +2,7 @@
 ----
 
 <form>
+
 action   template how_to_template "@@lang_@@:@@district_@@:how_to:@@title_@@"
 labels how_to_labels
 
@@ -36,4 +37,5 @@ fieldset "Resources / Downloads"
 file     "downloads_file_upload_" !
 
 submit
+
 </form>

@@ -8,9 +8,12 @@ MODIFIED:
   - wrote code to identify current uri and from that, fetch the current language selection
     - changed the homelink based on the current language logic.
   - added the bootstrap button for contribute content and the two dropdowns for that.
-1// tpl/bootstrap3/tpl_page_tools.php
+2// tpl/bootstrap3/tpl_page_tools.php
   - included the var-config global var file
   - put the whatsapp share button in the floating tool tablet on the right (<li> : line 29)
+
+3// tpl/bootstrap3/css/style.less
+  - included the newly created customizations.less file in here.
 
 CREATED:
 1// tpl/bootstrap3/change_wiki_language.php
@@ -19,12 +22,16 @@ CREATED:
 4// phpincludes/global_home.php
 5// phpincludes/whatsapp_share.php
 
+6// tpl/bootstrap3/css/customizations.less
+
+
 CSS STYLING FOR PHP_INCLUDES PAGES
 1// phpincludes/css/main.css
 
 BUREAUCRACY FORMS & TEMPLATES CREATED:
 1// data/pages/for_admin/contribute_content_files/how_to_form
 2// data/pages/for_admin/contribute_content_files/how_to_template
+2// data/pages/for_admin/contribute_content_files/how_to_labels
 3// data/pages/for_admin/contribute_content_files/stories_form
 4// data/pages/for_admin/contribute_content_files/stories_template
 

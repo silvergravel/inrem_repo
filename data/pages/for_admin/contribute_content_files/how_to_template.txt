@@ -1,9 +1,15 @@
-HOW TO
+<WRAP content_body>
+
+<WRAP format_name>HOW TO</WRAP>
 ====== @@title_@@ ======
-=== @@sub_title_@@ ===
+==== @@sub_title_@@ ====
 ----
-Author: @NAME@  |  District: @@district_@@  |  Date: %d %h %y
+
+<WRAP primary_meta><wrap left>Author: @NAME@</wrap><wrap right>District: @@district_@@  |  Date: %d %h %y</wrap></WRAP>
+<WRAP clear></WRAP>
 ----
+
+\\
 
 == Summary: ==
 
@@ -45,3 +51,5 @@ Author: @NAME@  |  District: @@district_@@  |  Date: %d %h %y
 
 == Resources / Downloads ==
 {{@@downloads_file_upload_@@?800X600}}
+
+</WRAP>

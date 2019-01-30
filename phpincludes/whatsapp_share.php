@@ -3,6 +3,10 @@
 $cwd = getcwd();
 include $cwd.'/var_config.php';
 
+echo "<style>";
+include "css/main.css";
+echo "</style>";
+
 $img_src = "/".$root_folder."/phpincludes/media/whatsapp_share.png";
 
 if(isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on')
@@ -27,7 +31,7 @@ $whatsapp_share_href = $whatsapp_share_prefix.$link;
 
 
 // whatsapp share button
-echo "<a href=$whatsapp_share_href data-action='share/whatsapp/share'><img height='20' src=$img_src></a>";
+echo "<a class='whatsapp_share' href=$whatsapp_share_href data-action='share/whatsapp/share'><img height='20' src=$img_src></a>";
 
 
 ?>

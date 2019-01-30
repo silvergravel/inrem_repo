@@ -1,9 +1,22 @@
-HOW TO
+<WRAP content_body>
+
+<WRAP format_name>How To</WRAP>
 ====== Water Quality Testing Kits for Field Use ======
-=== Quick, low cost and reliable tools for ensuring safe water consumption ===
+==== Quick, low cost and reliable tools for ensuring safe water consumption ====
 ----
-Author: Abrar  |  District: Dungarpur  |  Date: 30 Jan 19
+
+<WRAP primary_meta group>
+<WRAP half column>Author: Abrar</WRAP>
+<WRAP half column>District: Dungarpur  |  Date: 30 Jan 19</WRAP>
+</WRAP>
+
+
+
+
+
 ----
+
+\\
 
 == Summary: ==
 
@@ -18,14 +31,14 @@ Ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremqu
 == Pre-Requisites / Materials Needed ==
 {{english:dungarpur:how_to:water_quality_testing_kits_for_field_use:img_3450.jpg?800X600}}
 
-- Uncoated Corrugated Cardboard
-- Paper Bags
-- Newspaper
-- White Ledger
-- Colored Ledger
-- Computer Paper
-- Other Office Paper
-- Magazines and Catalogs
+  - Uncoated Corrugated Cardboard
+  - Paper Bags
+  - Newspaper
+  - White Ledger
+  - Colored Ledger
+  - Computer Paper
+  - Other Office Paper
+  - Magazines and Catalogs
 
 
 \\
@@ -33,11 +46,11 @@ Ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremqu
 == Step By Step Instructions ==
 {{english:dungarpur:how_to:water_quality_testing_kits_for_field_use:img_3469.jpg?800X600}}
 
-- Varying sets of reading comprehension questions to answer for a given book (either chosen by the teacher or student).
-- A personalized course packet with individualized remediation or enrichment materials.
-- An adaptive assessment that gets easier or harder depending on how a student is performing.
-- One-on-one coaching with a student, designed around his/her specific challenges.
-- Students grouped into small groups, which are designed around their strengths and weaknesses so that they can tutor each other.
+  - Varying sets of reading comprehension questions to answer for a given book (either chosen by the teacher or student).
+  - A personalized course packet with individualized remediation or enrichment materials.
+  - An adaptive assessment that gets easier or harder depending on how a student is performing.
+  - One-on-one coaching with a student, designed around his/her specific challenges.
+  - Students grouped into small groups, which are designed around their strengths and weaknesses so that they can tutor each other.
 
 \\
 
@@ -50,3 +63,6 @@ Excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui o
 
 == Resources / Downloads ==
 {{@@downloads_file_upload_@@?800X600}}
+
+</WRAP>
+
