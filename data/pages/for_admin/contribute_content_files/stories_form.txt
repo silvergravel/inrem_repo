@@ -1,5 +1,5 @@
 <form>
-action   template stories_template "@@What language will this article be in?@@:@@What's the name of your district?@@:stories_content:@@What is this story about?@@"
+action   template stories_template "@@What language will this article be in?@@:@@What's the name of your district?@@:stories_from_the_ground:@@What is this story about?@@"
 
 fieldset "Contribute A Story From The Ground"
 select   "What language will this article be in?" "english|hindi"

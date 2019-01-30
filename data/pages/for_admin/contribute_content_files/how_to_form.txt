@@ -1,19 +1,39 @@
+==== Contribute a 'HOW TO' Article ====
+----
 
 <form>
-action   template how_to_template "@@What language will this article be in?@@:@@What's the name of your District?@@:how_to_content:@@Title@@"
+action   template how_to_template "@@lang_@@:@@district_@@:how_to:@@title_@@"
+labels how_to_labels
 
+select   "lang_" "English|Hindi"
+select   "district_" "Dungarpur|Jhabua|Nalgonda|Chikballapur|Balasore"
+textbox  "title_"
+textbox  "sub_title_"
 
-fieldset "Contribute A HOW TO Article"
-select   "What language will this article be in?" "english|hindi"
-select   "What's the name of your District?" "Jhabua|Nalgonda|Chikballapur|Balasore"
+fieldset "Summary"
+textarea "summary_"
 
+fieldset "Video Upload"
+file     "video_upload_" !
 
-textbox  "Title"
-textbox  "Sub-Title"
-textarea "Please provide a short summary of this article"
-file     "Upload a video to make your HOW TO a lot more comprehensive!" 
-textarea "What are the pre-requisites or materials needed for this?"
-textarea "Provide detailed instructions on how to set it up"
-textarea "How would you test this solution?" !
+fieldset "Pre-Requisites / Materials Needed"
+file     "materials_image_upload_" !
+textarea "materials_"
+
+fieldset "Step By Step Instructions"
+file     "instructions_image_upload_" !
+textarea "instructions_"
+
+fieldset "Ways of Testing"
+file     "testing_image_upload_" !
+textarea "testing_" !
+
+fieldset "Success Stories"
+file     "stories_image_upload_" !
+textarea "stories_" !
+
+fieldset "Resources / Downloads"
+file     "downloads_file_upload_" !
+
 submit
 </form>

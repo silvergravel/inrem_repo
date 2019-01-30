@@ -1,30 +1,47 @@
-HOW TO..
-====== @@Title@@ ======
-=== @@Sub-Title@@ ===
+HOW TO
+====== @@title_@@ ======
+=== @@sub_title_@@ ===
 ----
-Author: @NAME@  |  District: @@What's the name of your District?@@  |  Date: %d %h %y
+Author: @NAME@  |  District: @@district_@@  |  Date: %d %h %y
 ----
 
-**Summary:**
+== Summary: ==
 
-@@Please provide a short summary of this article@@
+@@summary_@@
 
+\\
 
-{{@@Upload a video to make your HOW TO a lot more comprehensive!@@?1600x500}}
+{{@@video_upload_@@?1280x720}}
 
+\\
 
-**Pre-Requisites/ Material Required:**
+== Pre-Requisites / Materials Needed ==
+{{@@materials_image_upload_@@?800X600}}
 
-@@What are the pre-requisites or materials needed for this?@@
+@@materials_@@
 
+\\
 
-**Setting Up:**
+== Step By Step Instructions ==
+{{@@instructions_image_upload_@@?800X600}}
 
-@@Provide detailed instructions on how to set it up@@
+@@instructions_@@
 
+\\
 
-**Ways of Testing:**
+== Ways of Testing ==
+{{@@testing_image_upload_@@?800X600}}
 
-@@How would you test this solution?@@
+@@testing_@@
 
+\\
 
+== Success Stories ==
+{{@@stories_image_upload_@@?800X600}}
+
+@@stories_@@
+
+\\
+
+== Resources / Downloads ==
+{{@@downloads_file_upload_@@?800X600}}
