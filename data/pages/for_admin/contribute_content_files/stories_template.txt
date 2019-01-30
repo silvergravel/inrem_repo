@@ -1,11 +1,29 @@
-====== @@What is this story about?@@ ======
-**District: @@What's the name of your District?@@.**
+<WRAP content_body>
 
-*Summary*\\
-@@Provide a 50 word summary@@
+<WRAP format_name>HOW TO</WRAP>
+====== @@title_@@ ======
+==== @@sub_title_@@ ====
+----
 
-===@@Is there a quote that you would like to add in?@@===
+<WRAP primary_meta><wrap left>Author: @NAME@</wrap><wrap right>District: @@district_@@  |  Date: %d %h %y</wrap></WRAP>
 
-*Key Takeaways*\\
-@@What are the key takeaway's from this story?@@
+----
 
+\\
+
+== Summary: ==
+
+@@summary_@@
+
+\\
+
+{{@@cover_image_upload_@@?1280x720}}
+
+\\
+
+== Placeholder Section ==
+{{@@section_image_upload_@@?800X600}}
+
+@@placeholder_text_@@
+
+</WRAP>

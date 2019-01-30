@@ -6,7 +6,7 @@
 ----
 
 <WRAP primary_meta><wrap left>Author: @NAME@</wrap><wrap right>District: @@district_@@  |  Date: %d %h %y</wrap></WRAP>
-<WRAP clear></WRAP>
+
 ----
 
 \\

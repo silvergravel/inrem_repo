@@ -1,12 +1,26 @@
-<form>
-action   template stories_template "@@What language will this article be in?@@:@@What's the name of your district?@@:stories_from_the_ground:@@What is this story about?@@"
+==== Contribute a 'Story From the Ground' ====
+----
 
-fieldset "Contribute A Story From The Ground"
-select   "What language will this article be in?" "english|hindi"
-select   "What's the name of your district?" "Jhabua|Nalgonda|Chikballapur|Balasore"
-textbox  "What is this story about?"
-textarea "Provide a 50 word summary"
-textbox  "Is there a quote that you would like to add in?"
-textarea "What are the key takeaway's from this story?"
+<form>
+
+action   template stories_template "@@lang_@@:@@district_@@:stories_from_the_ground:@@title_@@"
+labels how_to_labels
+
+select   "lang_" "English|Hindi"
+select   "district_" "Dungarpur|Jhabua|Nalgonda|Chikballapur|Balasore"
+textbox  "title_"
+textbox  "sub_title_"
+
+fieldset "Summary"
+textarea "summary_"
+
+fieldset "Cover Image Upload"
+file     "cover_image_upload_" !
+
+fieldset "Placeholder Section"
+file     "section_image_upload_" !
+textarea "placeholder_text_"
+
 submit
+
 </form>

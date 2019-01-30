@@ -1,0 +1,13 @@
+
+  * lang_ = What language will this article be in?
+  * district_ = What's the name of your District?
+
+  * title_ = Title
+  * sub_title_ = Sub-Title
+
+  * summary_ = Please tell us what this Story From The Ground is about in 3 sentences
+
+  * cover_image_upload_ = Upload a cover image for the article
+
+  * section_image_upload_ = Upload an image if relevant
+  * placeholder_text_ = This is some placeholder text

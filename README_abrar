@@ -11,8 +11,10 @@ MODIFIED:
 2// tpl/bootstrap3/tpl_page_tools.php
   - included the var-config global var file
   - put the whatsapp share button in the floating tool tablet on the right (<li> : line 29)
+3// tpl/bootstrap3/main.php
+  - linked in the google font lato within head
 
-3// tpl/bootstrap3/css/style.less
+4// tpl/bootstrap3/css/style.less
   - included the newly created customizations.less file in here.
 
 CREATED:
@@ -34,6 +36,7 @@ BUREAUCRACY FORMS & TEMPLATES CREATED:
 2// data/pages/for_admin/contribute_content_files/how_to_labels
 3// data/pages/for_admin/contribute_content_files/stories_form
 4// data/pages/for_admin/contribute_content_files/stories_template
+5// data/pages/for_admin/contribute_content_files/stories_labels
 
 PAGEMOD TEST (UNUSED)
 1// data/pages/for_admin/contribute_content_files/test/pagemod_test_form

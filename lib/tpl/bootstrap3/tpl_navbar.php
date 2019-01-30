@@ -53,7 +53,11 @@ $home_link        = "/".$root_folder."/doku.php?id=".$current_language.":start";
 //$home_link        = (bootstrap3_conf('homePageURL') ? bootstrap3_conf('homePageURL') : wl()); //original line in this theme
 
 ?>
+<div class='container'>
+
+</div>
 <nav id="dw__navbar" class="navbar <?php echo trim(implode(' ', $navbar_classes)) ?>" role="navigation">
+
 
   <div class="container<?php echo (bootstrap3_is_fluid_navbar() ? '-fluid' : '') ?>">
 
@@ -194,7 +198,7 @@ $home_link        = "/".$root_folder."/doku.php?id=".$current_language.":start";
       ?>
     <!-- </div> -->
 
-    <div style="float:left;"><?php  @include(dirname(__FILE__).'/change_wiki_language.php')?></div>
+    <div style='float:left;'><?php  @include(dirname(__FILE__).'/change_wiki_language.php')?></div>
 
     <div class="dropdown" style="float:right;">
       <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">+ Contribute Content</button>
