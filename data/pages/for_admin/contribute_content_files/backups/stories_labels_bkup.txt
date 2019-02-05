@@ -1,0 +1,22 @@
+
+  * lang_ = What language will this article be in?
+  * district_ = What's the name of your District?
+
+  * title_ = Title
+  * sub_title_ = Sub-Title
+
+  * summary_ = Please tell us what this Story From The Ground is about in 3 sentences
+
+  * cover_image_upload_ = Upload a cover image for the article
+
+  * context_image_upload_ = Upload an image if relevant
+  * context_ = Please provide some background information that may be relevant to this story
+
+  * initiatives_image_upload_ = Upload an image if relevant
+  * initiatives_ = Were there any programs/initiatives that were undertaken and may be related to this story? Please touch upon them briefly
+
+  * impact_image_upload_ = Upload an image if relevant
+  * impact_ = What were the consequences of these programs/initiatives?
+
+  * current_situation_image_upload_ = Upload an image if relevant
+  * current_situation_ = What is the state of affairs as of today?
