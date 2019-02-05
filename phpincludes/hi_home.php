@@ -40,12 +40,30 @@ foreach(glob( $home_lang_content_dir_path.'/*', GLOB_ONLYDIR) as $locations) {
     foreach ($topics as $key => $val) {
       if($val != "." && $val != ".." && $val[0] != "."){
 
-        $val = str_replace('.txt', '', $val);
-        $display_topic = str_replace('_', ' ', $val);
 
-        $link_to_url = "/".$root_folder."/doku.php?id=".$home_lang.":".basename($locations).":".basename($formats).":".$val;
+        $file_contents = file_get_contents($formats.'/'.$val); //open up each file
 
-        echo "<h3 class='topic'><a href=$link_to_url>$display_topic</a></h3>";
+        $filename = str_replace('.txt', '', $val); //get only filename w/o extension. we need it to define the href below
+
+        $singleLine = explode("\n", $file_contents);
+        $titleLine = $singleLine[1];
+
+
+
+         $titleLineArray = explode(" ", $titleLine);
+
+         //get the markup character that is used before and after the words.
+         //this one is just getting the markup before the word (but it will always be the same as the one after)
+         $first = reset($titleLineArray);
+
+
+         $title = str_replace($first,"",$titleLine); //get rid of the markup character so now only the title text is left
+
+
+
+        $link_to_url = "/".$root_folder."/doku.php?id=".$home_lang.":".basename($locations).":".basename($formats).":".$filename;
+        //
+        echo "<h3 class='topic'><a href=$link_to_url>$title</a></h3>";
 
       };
     };
