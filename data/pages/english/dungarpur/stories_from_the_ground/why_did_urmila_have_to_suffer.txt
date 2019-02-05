@@ -1,0 +1,84 @@
+<WRAP content_body>
+
+<WRAP format_name>STORIES FROM THE GROUND</WRAP>
+====== Why did Urmila have to suffer? ======
+==== Although fluoride contamination was identified in Dhar, Madhya Pradesh a decade ago, children of some villages still continue to fall victim to skeletal and dental fluorosis causing bone deformities. ====
+----
+
+<WRAP primary_meta group>
+<WRAP half column>Author: Abrar</WRAP>
+<WRAP half column>District: Dungarpur  |  Date: 31 Jan 19</WRAP>
+</WRAP>
+
+----
+
+\\
+
+== Summary ==
+
+Urmila can neither walk upright, nor run about, nor do her chores easily. She is loved in her parents' house and they do not grudge her the extra care she requires. In rural India, this state of affairs does not last long for a girl, especially since she's only six years old. 
+
+Urmila is one of three young children in her village Kalapani, afflicted with skeletal fluorosis. The others are Santosh-Ramesh (4) and Bharat Zasharsingh (6) but that's not all. In addition to some adults also being afflicted by the same disease, several children have dental fluorosis, but of them we could say that it was an unpreventable tragedy. In the case of Urmila, Santosh and Bharat, it was criminal dereliction of duty. While these are strong words, they aren't exaggerated because of one very important fact: skeletal fluorosis cannot be treated but it can be prevented.
+
+
+\\
+
+{{english:dungarpur:stories_from_the_ground:why_did_urmila_have_to_suffer:img_9076.jpg?1280x720}}
+
+\\
+
+== Context ==
+{{english:dungarpur:stories_from_the_ground:why_did_urmila_have_to_suffer:dhar_1.jpg?800X600}}
+
+Fluoride contamination was identified in Kalapani in 2005 shortly after the Public Health and Engineering Department of Madhya Pradesh had discovered the presence of fluoride in the groundwater. They had then started on an intensive round of testing its water sources, which led to the identification of nearly every village that was contaminated with fluoride at the time. Kalapani was one of those villages.
+
+\\
+
+== Initiatives ==
+{{english:dungarpur:stories_from_the_ground:why_did_urmila_have_to_suffer:dhar_2.jpg?800X600}}
+
+Stopping all access to contaminated water
+
+This was done in two ways in Kalapani:
+  - Hand Pumps providing water with fluoride content over 5 ppm were blocked or sealed (the chain was removed)
+
+
+  - Handpumps providing water with fluoride content around 4ppm were marked with red.
+
+
+\\
+
+== Impact ==
+{{@@impact_image_upload_@@?800X600}}
+
+This strategy had a major shortcoming -- PHED did not speak to the villagers. Sakubai of Kalapani said, "After identification of the contaminated sources, they (PHED staff) painted the handpump red and then left. They told people standing by that 'the water is bad' but not why". This lack of communication made the PHED's work more difficult. As news spread that the PHED was shutting down hand pumps -- randomly, for all that the people knew -- villages began to resist. The PHED jeeps were gheraoed and the staff manhandled.
+
+From Urmila's point of view, the PHED's negligence to talk to the villagers had an impact that extended well beyond a few bruises. People simply continued to used the handpumps that were painted red.
+
+Kalapani is not an isolated story. Deheriya's functioning  government water supply scheme was cut to meet the demands of nearby Gujri town. In Sankota, the comprehensive and well-designed system installed by PHED lasted a week before the starter was stolen. A fluoride treatment unit installed at the same village also lies defunct.
+
+\\
+
+**Positive Impact**
+On the face of it, the PHED did everything right. Mishra, the present Superintending Engineer of the PHED, Madhya Pradesh, is not only aware of the problem but also has all the information at his fingertips. He confirmed that after the first diagnosis of fluorosis was made in Dhar, the PHED had launched an intensive drive to identify every contaminated source in the district. For this, they camped for days on end, faced suspicious villagers, and worked long hours. After that, they blocked the hand-pumps as per stated procedure. Later, their efforts evolved into awareness raising and in some cases to the provision of alternative sources.
+
+\\
+
+**Negative Impact**
+Dr.Anil Gautam of the Peoples' Science Institute (PSI) has been working on fluoride contamination in Dhar for a decade now. He explained the reason that government programmes seem to fail.
+
+“The processes outlined are good. It is in implementation that shortcuts are taken. Why? The capacities of the staff working at the grassroots is not built to the level that it should be. Ambitious targets are set by people who do not work in the field. This leads to the staff cutting the number of visits; social mobilisation naturally suffers. Despite this, there is usually no problem in implementation; the problems are mainly in the operation and maintenance phase. That is because there is no community ownership. Residents think it is the 'sarkar's work' and the old techniques of people working together are disappearing”.
+
+Sakubai of Kalapani beamed as she spoke about the pleasure of having water available in the tanks. “Earlier I would need one hour each way to bring water. Now chapati banate banate(as I am cooking) I can go and get water”. There is a long journey behind her glee. Since 2011, PSI has followed a meticulous and patient approach to controlling the spread  of fluorosis.
+
+
+
+
+\\
+
+== Current Situation ==
+{{english:dungarpur:stories_from_the_ground:why_did_urmila_have_to_suffer:img_3463.jpg?800X600}}
+
+Urmila  is also living in a time of hope. Her siblings now need never be at risk of skeletal fluorosis. And there is new research to help her. Work done by scientists in Rajasthan and Madhya Pradesh have conclusively proved that calcium and Vitamin C supplements can reverse bone deformities caused by skeletal fluorosis. Puja Singh has now taken it upon herself to ensure that Urmila, Santosh and Bharat have access to the medicines they need.
+
+</WRAP>

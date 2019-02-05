@@ -11,3 +11,4 @@
 
 sheneille:$1$4SGH8olp$okca1UH9.ys6AjzwfTwsD0:Sheneille Patil:sheneillepatil@gmail.com:lvl_2
 abrar:$1$BgX8Ji61$cG5JRIXNALEk5lekPv4iW/:Abrar:burk.abrar@gmail.com:admin
+tester_admin:$1$DqKln8tP$HgXaV.FD9mLXihUUZJ5p5.:tester_admin:burk.abrar@gmail.com:admin

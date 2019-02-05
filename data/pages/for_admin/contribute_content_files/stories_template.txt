@@ -1,17 +1,20 @@
 <WRAP content_body>
 
-<WRAP format_name>HOW TO</WRAP>
+<WRAP format_name>STORIES FROM THE GROUND</WRAP>
 ====== @@title_@@ ======
 ==== @@sub_title_@@ ====
 ----
 
-<WRAP primary_meta><wrap left>Author: @NAME@</wrap><wrap right>District: @@district_@@  |  Date: %d %h %y</wrap></WRAP>
+<WRAP primary_meta group>
+<WRAP half column>Author: @NAME@</WRAP>
+<WRAP half column>District: @@district_@@  |  Date: %d %h %y</WRAP>
+</WRAP>
 
 ----
 
 \\
 
-== Summary: ==
+== Summary ==
 
 @@summary_@@
 
@@ -21,9 +24,30 @@
 
 \\
 
-== Placeholder Section ==
-{{@@section_image_upload_@@?800X600}}
+== Context ==
+{{@@context_image_upload_@@?800X600}}
 
-@@placeholder_text_@@
+@@context_@@
+
+\\
+
+== Initiatives ==
+{{@@initiatives_image_upload_@@?800X600}}
+
+@@initiatives_@@
+
+\\
+
+== Impact ==
+{{@@impact_image_upload_@@?800X600}}
+
+@@impact_@@
+
+\\
+
+== Current Situation ==
+{{@@current_situation_image_upload_@@?800X600}}
+
+@@current_situation_@@
 
 </WRAP>

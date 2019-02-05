@@ -4,7 +4,7 @@
 <form>
 
 action   template stories_template "@@lang_@@:@@district_@@:stories_from_the_ground:@@title_@@"
-labels how_to_labels
+labels stories_labels
 
 select   "lang_" "English|Hindi"
 select   "district_" "Dungarpur|Jhabua|Nalgonda|Chikballapur|Balasore"
@@ -17,9 +17,22 @@ textarea "summary_"
 fieldset "Cover Image Upload"
 file     "cover_image_upload_" !
 
-fieldset "Placeholder Section"
-file     "section_image_upload_" !
-textarea "placeholder_text_"
+fieldset "Context"
+file     "context_image_upload_" !
+textarea "context_"
+
+fieldset "Initiatives"
+file     "initiatives_image_upload_" !
+textarea "initiatives_"
+
+fieldset "Impact"
+file     "impact_image_upload_" !
+textarea "impact_"
+
+fieldset "Current Situation"
+file     "current_situation_image_upload_" !
+textarea "current_situation_"
+
 
 submit
 

@@ -36,7 +36,7 @@ foreach(glob( $home_lang_content_dir_path.'/*', GLOB_ONLYDIR) as $locations) {
     echo "<h5 class='format'>$display_formats</h5>";
 
     $topics = scandir($formats);
-
+    echo "<ul class='topics_wrapper'>";
     foreach ($topics as $key => $val) {
       if($val != "." && $val != ".." && $val[0] != "."){
 
@@ -45,11 +45,11 @@ foreach(glob( $home_lang_content_dir_path.'/*', GLOB_ONLYDIR) as $locations) {
 
         $link_to_url = "/".$root_folder."/doku.php?id=".$home_lang.":".basename($locations).":".basename($formats).":".$val;
 
-        echo "<h3 class='topic'><a href=$link_to_url>$display_topic</a></h3>";
+        echo "<li class='topic'><a href=$link_to_url>$display_topic</a></li>";
 
       };
     };
-
+    echo "</ul>";
 };
 echo "<hr>";
 };

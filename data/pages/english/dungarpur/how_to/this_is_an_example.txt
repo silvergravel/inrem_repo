@@ -1,0 +1,60 @@
+<WRAP content_body>
+
+<WRAP format_name>HOW TO</WRAP>
+====== this is an example ======
+==== sub title of the example ====
+----
+
+<WRAP primary_meta group>
+<WRAP half column>Author: tester_admin</WRAP>
+<WRAP half column>District: @@district_  |  Date: 31 Jan 19</WRAP>
+</WRAP>
+
+----
+
+\\
+
+== Summary ==
+
+some summary
+
+\\
+
+{{english:dungarpur:how_to:this_is_an_example:img_4127.mp4?1280x720}}
+
+\\
+
+== Pre-Requisites / Materials Needed ==
+{{@@materials_image_upload_@@?800X600}}
+
+  * something
+  * something
+  * something
+
+\\
+
+== Step By Step Instructions ==
+{{@@instructions_image_upload_@@?800X600}}
+
+some instruction
+
+\\
+
+== Ways of Testing ==
+{{@@testing_image_upload_@@?800X600}}
+
+testinng ways
+
+\\
+
+== Success Stories ==
+{{@@stories_image_upload_@@?800X600}}
+
+some information.
+
+\\
+
+== Resources / Downloads ==
+{{@@downloads_file_upload_@@?800X600}}
+
+</WRAP>
