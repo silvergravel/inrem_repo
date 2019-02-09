@@ -1,0 +1,70 @@
+<WRAP content_body>
+
+<WRAP format_name>STORIES FROM THE GROUND</WRAP>
+====== Sharing safe water ======
+==== Sharing safe water from private source for the drinking purpose ====
+----
+
+<WRAP primary_meta group>
+<WRAP half column>Author: tester_admin</WRAP>
+<WRAP half column>District: Balasore  |  Date: 06 Feb 19</WRAP>
+</WRAP>
+
+----
+
+\\
+
+== Summary ==
+
+
+safe drinking water shared among the Thanagadia villagers in the Remuna block of the Balasore district.
+
+Local water sharing from the private source is helping approx 300 villagers in the Thanagadia Village.
+
+No investment on external technology like RO or Pipe water scheme.  
+
+\\
+
+{{@@cover_image_upload_@@?1280x720}}
+
+\\
+
+== Context ==
+{{@@context_image_upload_@@?800X600}}
+
+ A good example of the safe water sharing from the private source among the villagers is seen in the village Thanagadia of the Remuna Block of the Balasore district. Through drinking water survey done by the DFMC it is observed that most of the source is contaminated with high fluoride due to which villagers are suffering from dental and skeletal fluorosis from a decade. After PRA performed by the DFMC team in the village to sensitize the villagers on the fluorosis issue. After detailed group discussion among the villagers, community understood the problem and solutions to mitigate the fluorosis issue. water quality result showed that there is 2 safe water source available in the village but those were the private source. Continuous triggering on the sharing of the safe water source, the owner Mr Vijay Das got motivated and agreed to share the water free of the cost. after the process Head man of the village Mr Kailash Das also agreed to share the water. This process is helping 60 Household of the Khandayat and Adiwasi Sahi to get safe drinking water free of cost and without any investment of external technology. 
+
+\\
+
+== Initiatives ==
+{{@@initiatives_image_upload_@@?800X600}}
+
+1. DFMC team headed by Ghanshyam Sheet done PRA in the village with the objective to sensitize community on fluorosis issues, its root cause and what are the options to mitigate the issue. 
+
+2. Continuous triggering the villagers on common pool sharing of the groundwater source among the villagers. 
+
+3. Motivated owner of the privated source MR Vijay Das and his wife MS. Ramani Das who is a ASHA worker also agreed to share their Handpump safe water source free of cost among the villagers. 
+
+4. Protocol were set among the villagers on sharing the water source.
+
+5. During the process of the community sensitization, Head man of the village Mr. Kailash Das also agreed to share the water free of cost among the villagers.
+
+
+
+\\
+
+== Impact ==
+{{@@impact_image_upload_@@?800X600}}
+
+Community started to realise that groundwater is a common pool resource so they are willingly sharing their private owned water source like Handpump or well for the drinking and cooking purpose to mitigate fluorosis cases from the villages. 
+
+\\
+
+== Current Situation ==
+{{@@current_situation_image_upload_@@?800X600}}
+
+Community of the fluoride affected villages are getting safe water for the drinking and cooking purpose.
+
+This process is also followed in the other villagers also.
+
+</WRAP>

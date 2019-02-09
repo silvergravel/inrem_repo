@@ -1,0 +1,58 @@
+<WRAP content_body>
+
+<WRAP format_name>STORIES FROM THE GROUND</WRAP>
+====== आप को नमस्ते ======
+==== आप को नमस्ते ====
+----
+
+<WRAP primary_meta group>
+<WRAP half column>Author: Abrar</WRAP>
+<WRAP half column>District: Dungarpur  |  Date: 03 Feb 19</WRAP>
+</WRAP>
+
+----
+
+\\
+
+== Summary ==
+
+नमस्ते
+
+
+\\
+
+{{@@cover_image_upload_@@?1280x720}}
+
+\\
+
+== Context ==
+{{@@context_image_upload_@@?800X600}}
+
+नमस्ते
+
+
+\\
+
+== Initiatives ==
+{{@@initiatives_image_upload_@@?800X600}}
+
+नमस्ते
+
+
+\\
+
+== Impact ==
+{{@@impact_image_upload_@@?800X600}}
+
+आप को नमस्ते
+
+
+\\
+
+== Current Situation ==
+{{@@current_situation_image_upload_@@?800X600}}
+
+आप को नमस्ते
+
+
+</WRAP>

@@ -1,0 +1,58 @@
+<WRAP content_body>
+
+<WRAP format_name>STORIES FROM THE GROUND</WRAP>
+====== Water data helping villagers get Safe water ======
+==== Innovative fluoride testing piloted ====
+----
+
+<WRAP primary_meta group>
+<WRAP half column>Author: tester_admin</WRAP>
+<WRAP half column>District: Jhabua  |  Date: 06 Feb 19</WRAP>
+</WRAP>
+
+----
+
+\\
+
+== Summary ==
+
+An innovative water fluoride testing instrument has been used by a student of Columbia Earth Institute in Jhabua and Ali Rajpur districts of Madhya Pradesh (MP). This has led to attention on people's problem and action being planned now
+
+\\
+
+{{english:jhabua:stories_from_the_ground:water_data_helping_villagers_get_safe_water:whatsapp_image_2018-12-22_at_19.05.20.jpeg?1280x720}}
+
+\\
+
+== Context ==
+{{english:jhabua:stories_from_the_ground:water_data_helping_villagers_get_safe_water:asset-get.product.image.jpg?800X600}}
+
+Mr Armaan Kapoor is a student of Dr Radhika Iyengar, Director of Education, Center on Globalization and Sustainable Development The Earth Institute, Columbia University. Together, they are testing an innovative water fluoride testing instrument (bit.ly/pocketfluoride) shown here in this image. They partnered with the INREM team in Jhabua which is coordinating the Fluorosis Mitigation Centre (FMC) since 2010. See here for more information (http://inremfoundation.org/fluorosis/fluorosis.html). Together a field test was planned during December 22-24, 2018.
+
+\\
+
+== Initiatives ==
+{{english:jhabua:stories_from_the_ground:water_data_helping_villagers_get_safe_water:whatsapp_image_2018-12-26_at_08.00.21.jpeg?800X600}}
+
+The team of Mr Sachin Vani from INREM and Mr Arman Kapoor, tested 44 water sources from Jhabua and Ali Rajpur districts. The data from this testing has been shared here (see this link http://bit.ly/akdec18data). 
+
+These water sources include the Jobat block of Ali Rajpur district where fluoride in water is now being identified. This has been a new finding and few thousand people here are suffering from fluorosis.
+
+\\
+
+== Impact ==
+{{@@impact_image_upload_@@?800X600}}
+
+This programme of fluoride testing has now led to more attention and proposed action on the problem of fluorosis in Ali Rajpur. One outcome of this effort is a proposal to the Education department, of MP, for taking action from college students on testing of fluoride and raising more awareness on the issue. More such initiatives are being planned
+
+
+\\
+
+== Current Situation ==
+{{@@current_situation_image_upload_@@?800X600}}
+
+Arman Kapoor also started out a crowdfunding campaign https://www.gofundme.com/Fluoride-Awareness-Funding-India . Already $1375 has been raised by this campaign.
+
+@@current_situation_@@
+
+</WRAP>

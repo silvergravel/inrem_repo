@@ -1,0 +1,61 @@
+<WRAP content_body>
+
+<WRAP format_name>STORIES FROM THE GROUND</WRAP>
+====== Installing RO plants not enough ======
+==== Understanding drinking water plants from Chikballapur district ====
+----
+
+<WRAP primary_meta group>
+<WRAP half column>Author: tester_admin</WRAP>
+<WRAP half column>District: Chikballapur  |  Date: 06 Feb 19</WRAP>
+</WRAP>
+
+----
+
+\\
+
+== Summary ==
+
+390 plants have been installed in larger habitations.
+
+Smaller habitations missed out.
+
+Safe water access is a challenge in remote habitations.
+
+
+
+\\
+
+{{@@cover_image_upload_@@?1280x720}}
+
+\\
+
+== Context ==
+{{@@context_image_upload_@@?800X600}}
+
+Smaller habitations face challenge to access to safe water in terms of distance to the nearest plants. Other individual factor is also the paying ability of the families with more than 5 members.
+
+\\
+
+== Initiatives ==
+{{@@initiatives_image_upload_@@?800X600}}
+
+The state government under the shudduneeru scheme intends to install community based water purification plants as a response to growing fluoride contamination in groundwater
+
+\\
+
+== Impact ==
+{{@@impact_image_upload_@@?800X600}}
+
+390 plants under the government schemes and other non-governmental initiatives have been installed. These plants are situated in habitations with more than 300 Households with population above 1000. 
+
+But people in smaller habitations with high fluoride contamination in their drinking water sources tend to drink from these sources. As a result, cases of fluorosis are seen among young children. This is because there is no focus on how safe water can be delivered to remote habitations
+
+\\
+
+== Current Situation ==
+{{@@current_situation_image_upload_@@?800X600}}
+
+Some of these plants are currently under repair. While most others are facing issues of O and M. 
+
+</WRAP>
