@@ -123,4 +123,20 @@ act_dispatch();
 $tmp = array(); // No event data
 trigger_event('DOKUWIKI_DONE', $tmp);
 
+
+//some example code to explore how global variables can be accessed to fetch information.
+
+echo "name of page is: <strong>".$ID."  |  </strong>";
+
+echo "user info is: <strong>".$INFO['userinfo']."</strong>";
+
+echo "user info is: <strong>".$USERINFO['name']."</strong>";
+
+print_r($USERINFO);
+
+
+
+
+
+
 //  xdebug_dump_function_profile(1);

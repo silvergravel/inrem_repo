@@ -18,3 +18,15 @@
 1548928626	::1	C	english:dungarpur:how_to:this_is_an_example	tester_admin	Created from the form at for_admin:contribute_content_files:how_to_form		859
 1549358249	::1	C	thisisatest	tester_admin	created		19
 1549358284	::1	C	यह_एक_परीक्षण_है	tester_admin	created		43
+1550485706	::1	C	example_plugin_test	abrar	created		6
+1550486599	::1	E	example_plugin_test	abrar			1
+1550486952	::1	E	example_plugin_test	abrar			0
+1550486957	::1	E	example_plugin_test	abrar			-1
+1550486963	::1	E	example_plugin_test	abrar			1
+1550487164	::1	E	example_plugin_test	abrar			-1
+1550487172	::1	E	example_plugin_test	abrar			0
+1550487180	::1	E	example_plugin_test	abrar			1
+1550487190	::1	E	example_plugin_test	abrar			0
+1550487197	::1	E	example_plugin_test	abrar			-1
+1550487831	::1	E	example_plugin_test	abrar			9
+1550487935	::1	E	example_plugin_test	abrar			-7
