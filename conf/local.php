@@ -21,3 +21,4 @@ $conf['plugin']['showpageafterlogin']['page_after_login'] = 'english:start';
 $conf['tpl']['bootstrap3']['fluidContainerBtn'] = 1;
 
 // end auto-generated content
+//

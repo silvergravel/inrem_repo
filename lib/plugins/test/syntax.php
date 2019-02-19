@@ -32,6 +32,8 @@ class syntax_plugin_test extends DokuWiki_Syntax_Plugin {
         return 'substition'; ///!!!!!///
     }
 
+    
+
     /**
      * What kind of syntax do we allow (optional)
      */
