@@ -128,12 +128,24 @@ trigger_event('DOKUWIKI_DONE', $tmp);
 
 echo "name of page is: <strong>".$ID."  |  </strong>";
 
-echo "user info is: <strong>".$INFO['userinfo']."</strong>";
+echo "namespace of page is: <strong>".$INFO['namespace']."  |  </strong>";
 
-echo "user info is: <strong>".$USERINFO['name']."</strong>";
+echo "current action is: <strong>".$ACT."  |  </strong>";
 
-print_r($USERINFO);
+echo "base URL is: <strong>".DOKU_BASE."  |  </strong>";
 
+echo "base URL is: <strong>".DOKU_REL."  |  </strong>";
+
+echo "base URL is: <strong>".DOKU_URL."  |  </strong>";
+
+echo "user info is: <strong>".$INFO['userinfo']."  |  </strong>";
+
+if(isset($INFO['userinfo'])){
+  echo "someone is logged in!";
+
+} else{
+  echo "no one is logged in :(";
+}
 
 
 

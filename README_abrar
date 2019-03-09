@@ -3,12 +3,11 @@ Files that have been created / modified by me:
 MODIFIED:
 
 1// tpl/bootstrap3/tpl_navbar.php
-  - included the var_config global var file
+  - included the get lang namespace file
   - included the change wiki language file
-  - included the show languages file (multilingual plugin)
-  - wrote code to identify current uri and from that, fetch the current language selection
-    - changed the homelink based on the current language logic.
-  - added the bootstrap button for contribute content and the two dropdowns for that.
+  - included the contribute button file
+  - included the show languages file (multilingual plugin) -- but it has been commented out.
+  - changed the homelink based on the current lang namespace.
 2// tpl/bootstrap3/tpl_page_tools.php
   - included the var-config global var file
   - put the whatsapp share button in the floating tool tablet on the right (<li> : line 29)
@@ -24,7 +23,9 @@ MODIFIED:
 
 CREATED:
 
-1// tpl/bootstrap3/change_wiki_language.php
+1// tpl/bootstrap3/ab_addons/change_wiki_language.php
+1// tpl/bootstrap3/ab_addons/get_lang_ns.php
+1// tpl/bootstrap3/ab_addons/contribute_btn.php
 2// phpincludes/en_home.php
 3// phpincludes/hi_home.php
 4// phpincludes/global_home.php
@@ -37,13 +38,15 @@ CSS STYLING FOR PHP_INCLUDES PAGES
 1// phpincludes/css/main.css
 
 BUREAUCRACY FORMS & TEMPLATES CREATED:
-1// data/pages/for_admin/contribute_content_files/how_to_form
-2// data/pages/for_admin/contribute_content_files/how_to_template
-2// data/pages/for_admin/contribute_content_files/how_to_labels
-3// data/pages/for_admin/contribute_content_files/stories_form
-4// data/pages/for_admin/contribute_content_files/stories_template
-5// data/pages/for_admin/contribute_content_files/stories_labels
 
-PAGEMOD TEST (UNUSED)
-1// data/pages/for_admin/contribute_content_files/test/pagemod_test_form
-2// data/pages/for_admin/contribute_content_files/test/pagemod_test_page
+NOTE: first version HOW TO forms have been removed, backup is stored on Abrar's mac. Will revisit the 'How To' content type in the future.
+
+ENGLISH:
+3// data/pages/english/contr_forms/stories_form
+4// data/pages/english/contr_forms/stories_template
+5// data/pages/english/contr_forms/stories_labels
+
+HINDI:
+3// data/pages/hindi/contr_forms/stories_form
+4// data/pages/hindi/contr_forms/stories_template
+5// data/pages/hindi/contr_forms/stories_labels

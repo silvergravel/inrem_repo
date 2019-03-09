@@ -7,30 +7,6 @@
  * @license  GPL 2 (http://www.gnu.org/licenses/gpl.html)
  */
 
- //fetching global definition of namespace names-----------------------------------------//
-
- $cwd = getcwd();
- include $cwd.'/var_config.php';
-
- //--------------------------------------------------------------------------------------//
-
-
-//--------------------//change_wiki_language_addon-------------------//
- $compatible_languages = array($english,$hindi);
-
- $directoryURI = $_SERVER['REQUEST_URI'];
- $components = explode('=', $directoryURI);
- $first_part = $components[1];
- $current_language_code = substr($first_part, 0, 2);
- if($current_language_code == "en"){
-   $current_language = $english;
- } else if ($current_language_code == "hi"){
-   $current_language = $hindi;
- };
- if (!in_array($current_language, $compatible_languages)) {
-    $current_language = $english;
-}
-//-------------------------------------------------------------------//
 
 // must be run from within DokuWiki
 if (!defined('DOKU_INC')) die();
@@ -42,18 +18,16 @@ $navbar_classes   = array();
 $navbar_classes[] = (bootstrap3_conf('fixedTopNavbar') ? 'navbar-fixed-top' : null);
 $navbar_classes[] = (bootstrap3_conf('inverseNavbar')  ? 'navbar-inverse'   : 'navbar-default');
 
-//--------------------//change_wiki_language_addon-------------------//
+@include(dirname(__FILE__).'/ab_addons/get_lang_ns.php');
 
-//hyperlink the homelink to a particular language homepage, depending on current language selection
+$home_link = DOKU_BASE."doku.php?id=".$lang_namespace.":start";
 
-$home_link        = "/".$root_folder."/doku.php?id=".$current_language.":start"; //change_wiki_language_addon
-
-//-------------------------------------------------------------------//
-
-//$home_link        = (bootstrap3_conf('homePageURL') ? bootstrap3_conf('homePageURL') : wl()); //original line in this theme
+// $home_link        = (bootstrap3_conf('homePageURL') ? bootstrap3_conf('homePageURL') : wl()); //ABRAR: og line
 
 ?>
 <div class='container'>
+
+
 
 </div>
 <nav id="dw__navbar" class="navbar <?php echo trim(implode(' ', $navbar_classes)) ?>" role="navigation">
@@ -192,21 +166,20 @@ $home_link        = "/".$root_folder."/doku.php?id=".$current_language.":start";
       </div>
 
     </div>
+
+    <!-- ABRAR: disabled multilingual plugin include code -->
+
     <!-- <div style="float:left;"> -->
       <?php
-      //@include(dirname(__FILE__).'/show_languages.html')
+      // @include(dirname(__FILE__).'/show_languages.html')
       ?>
     <!-- </div> -->
 
-    <div style='float:left;'><?php  @include(dirname(__FILE__).'/change_wiki_language.php')?></div>
+    <!-- ABRAR: language control -->
+    <div style='float:left;'><?php  @include(dirname(__FILE__).'/ab_addons/change_wiki_language.php')?></div>
 
-    <div class="dropdown" style="float:right;">
-      <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">+ Contribute Content</button>
-      <ul class="dropdown-menu">
-        <li><a href="<?php echo "/".$root_folder."/doku.php?id=for_admin:contribute_content_files:how_to_form" ?>">how to...</a></li>
-        <li><a href="<?php echo "/".$root_folder."/doku.php?id=for_admin:contribute_content_files:stories_form" ?>">stories from the ground</a></li>
-      </ul>
-    </div>
+    <!-- ABRAR: contribute cta -->
+    <div style='float:right;'><?php  @include(dirname(__FILE__).'/ab_addons/contribute_btn.php')?></div>
 
   </div>
 </nav>

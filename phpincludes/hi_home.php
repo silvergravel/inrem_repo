@@ -24,7 +24,9 @@ echo "<div class='home-content'>";
 //-------------- on the lannguage homepage.                         -------------------//
 foreach(glob( $home_lang_content_dir_path.'/*', GLOB_ONLYDIR) as $locations) {
 
+if($locations !== $home_lang_content_dir_path."/".$contr_forms){ //do not display the contents of admin folder
   $display_locations = str_replace($home_lang_content_dir_path.'/', '', $locations);
+
 
   echo "<h6 class='location'>$display_locations</h6>";
 
@@ -46,7 +48,7 @@ foreach(glob( $home_lang_content_dir_path.'/*', GLOB_ONLYDIR) as $locations) {
         $filename = str_replace('.txt', '', $val); //get only filename w/o extension. we need it to define the href below
 
         $singleLine = explode("\n", $file_contents);
-        $titleLine = $singleLine[1];
+        $titleLine = $singleLine[3];
 
 
 
@@ -57,8 +59,8 @@ foreach(glob( $home_lang_content_dir_path.'/*', GLOB_ONLYDIR) as $locations) {
          $first = reset($titleLineArray);
 
 
-         $title = str_replace($first,"",$titleLine); //get rid of the markup character so now only the title text is left
-
+         $title = trim($titleLine,"======"); //get rid of the markup character so now only the title text is left
+         $title = trim($title);
 
 
         $link_to_url = "/".$root_folder."/doku.php?id=".$home_lang.":".basename($locations).":".basename($formats).":".$filename;
@@ -70,6 +72,7 @@ foreach(glob( $home_lang_content_dir_path.'/*', GLOB_ONLYDIR) as $locations) {
 
 };
 echo "<hr>";
+}
 };
 //--------------------------------------------------------------------------------------//
 
