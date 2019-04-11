@@ -1,0 +1,70 @@
+/* home content */
+
+.home-content h1 , h2 , h3 , h4 , h5 , h6 , li, p, label{
+  font-family: 'Lato', sans-serif;
+}
+
+
+.home-content ul {
+  list-style: none; /* Remove default bullets */
+}
+
+.home-content ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #337ab7; /* Change the color */
+  font-weight: 300;
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1.1em; /* Also needed for space (tweak if needed) */
+}
+
+.home-content .location{
+
+  font-weight: 700;
+  color: rgb(145, 145, 145);
+  text-transform: uppercase;
+  margin-bottom: 20px;
+
+}
+
+.home-content .format , .topic{
+  text-transform: capitalize;
+
+}
+
+.home-content .topic{
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 0 16px 0;
+}
+
+.home-content .topics_wrapper{
+  margin: 10px 0 30px 0;
+  padding-left: 20px;
+}
+
+/*language filter basic styling*/
+.lang_opts_form .radio-wrapper  {
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid grey;
+}
+
+.lang_opts_form label{
+
+  vertical-align:middle;
+  margin-right: 20px;
+
+}
+
+.lang_opts_form input.radio-inline{
+
+  margin-top: 0px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+
+}
+
+
+
+}

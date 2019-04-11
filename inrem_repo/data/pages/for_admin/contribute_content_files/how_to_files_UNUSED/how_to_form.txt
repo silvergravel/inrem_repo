@@ -1,0 +1,41 @@
+==== Contribute a 'HOW TO' ====
+----
+
+<form>
+
+action   template how_to_template "@@lang_@@:@@district_@@:how_to:@@title_@@"
+labels how_to_labels
+
+select   "lang_" "English|Hindi"
+select   "district_" "Dungarpur|Jhabua|Nalgonda|Chikballapur|Balasore"
+textbox  "title_"
+textbox  "sub_title_"
+
+fieldset "Summary"
+textarea "summary_" !
+
+fieldset "Video Upload"
+file     "video_upload_" !
+
+fieldset "Pre-Requisites / Materials Needed"
+file     "materials_image_upload_" !
+textarea "materials_" !
+
+fieldset "Step By Step Instructions"
+file     "instructions_image_upload_" !
+textarea "instructions_" !
+
+fieldset "Ways of Testing"
+file     "testing_image_upload_" !
+textarea "testing_" !
+
+fieldset "Success Stories"
+file     "stories_image_upload_" !
+textarea "stories_" !
+
+fieldset "Resources / Downloads"
+file     "downloads_file_upload_" !
+
+submit
+
+</form>

@@ -1,0 +1,90 @@
+Files that have been created / modified by me:
+
+MODIFIED:
+
+1// tpl/bootstrap3/tpl_navbar.php
+  - included the contribute button file
+
+  - included the change wiki language file -- (commented out)
+  - search bar has been disbled-- 92:commented out
+  - tools menu disbled-- 100:commented out
+  - disabled register btn - 136:commented out
+  - bootstrap toogle disabled - 120:commented out
+
+2// tpl/bootstrap3/tpl_page_tools.php
+  - put the whatsapp share button in the floating tool tablet on the right (<li> : line 32)
+
+3// tpl/bootstrap3/main.php
+  - linked in the google font lato within head
+
+4// tpl/bootstrap3/css/style.less
+  - included the newly created customizations.less file in here.
+
+5// doku.php
+  - just some exploratory code at the bottom of the page to echo some global variables. leaving it for now as a referece.
+    I have dumped out userinfo, pagename and a lot more is possible. look at: https://www.dokuwiki.org/devel:environment
+
+CREATED:
+
+    tpl/bootstrap3/comp_addons/contribute_btn.php
+    tpl/bootstrap3/comp_addons/whatsapp_share.php  --- have no idea how the css file is getting linked to this one.
+
+    phpincludes/home.php
+    phpincludes/content_filter.php
+
+    tpl/bootstrap3/comp_addons/change_contr_forms_lang.php (unused)
+    tpl/bootstrap3/comp_addons/get_lang_ns.php (unused)
+
+    phpincludes/en_home.php (removed)
+    phpincludes/hi_home.php (removed)
+    phpincludes/global_home.php (removed)
+
+    var_config.php : really shitty way to create a consolidated area for
+    some key vars which i can keep changing, and the code remains intact.
+    Though, honestly, i think the only place where i have used these is in phpincludes/content_filer.php
+
+
+6// tpl/bootstrap3/css/customizations.less
+
+
+CSS STYLING FOR PHP_INCLUDES PAGES
+1// phpincludes/css/main.css
+
+BUREAUCRACY FORMS & TEMPLATES CREATED:
+
+NOTE: first version HOW TO forms have been removed, backup is stored on Abrar's mac. Will revisit the 'How To' content type in the future.
+
+ENGLISH:
+// data/pages/contr_forms/stories/english/activity_form
+// data/pages/contr_forms/stories/english/activity_template
+// data/pages/contr_forms/stories/english/activity_labels
+
+// data/pages/contr_forms/stories/english/person_form
+// data/pages/contr_forms/stories/english/person_template
+// data/pages/contr_forms/stories/english/person_labels
+
+// data/pages/contr_forms/stories/english/place_form
+// data/pages/contr_forms/stories/english/place_template
+// data/pages/contr_forms/stories/english/place_labels
+
+// data/pages/contr_forms/stories/english/other_form
+// data/pages/contr_forms/stories/english/other_template
+// data/pages/contr_forms/stories/english/other_labels
+
+
+HINDI:
+// data/pages/contr_forms/stories/hindi/activity_form
+// data/pages/contr_forms/stories/hindi/activity_template
+// data/pages/contr_forms/stories/hindi/activity_labels
+
+// data/pages/contr_forms/stories/english/person_form
+// data/pages/contr_forms/stories/english/person_template
+// data/pages/contr_forms/stories/english/person_labels
+
+// data/pages/contr_forms/stories/english/place_form
+// data/pages/contr_forms/stories/english/place_template
+// data/pages/contr_forms/stories/english/place_labels
+
+// data/pages/contr_forms/stories/english/other_form
+// data/pages/contr_forms/stories/english/other_template
+// data/pages/contr_forms/stories/english/other_labels
