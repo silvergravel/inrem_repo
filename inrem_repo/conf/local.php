@@ -23,3 +23,4 @@ $conf['tpl']['bootstrap3']['fluidContainerBtn'] = '1';
 $conf['plugin']['multilingual']['enabled_langs'] = 'en, hi, kn';
 
 // end auto-generated content
+//
